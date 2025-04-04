@@ -1,0 +1,19 @@
+[project]
+name = "ml-stable-diffusion"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "coremltools>=8.0",
+    "diffusers[torch]==0.30.2",
+    "diffusionkit==0.4.0",
+    "invisible-watermark>=0.2.0",
+    "matplotlib>=3.10.1",
+    "pytest>=8.3.5",
+    "safetensors>=0.5.3",
+    "scikit-learn>=1.6.1",
+    "scipy>=1.15.2",
+    "torch>=2.6.0",
+    "transformers==4.44.2",
+]
